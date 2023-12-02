@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+	  background-color:rgba(180,84,184,0.8);
+	   }
+
+    header {
+      background-color:rgba(255,34,289,0.3);
+      color: white;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+	  width:100%;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo img {
+      width: 150px; /* Adjust the size of the icon as needed */
+      height: 150px;
+      margin-right: 10px;
+	  border-radius:50%;
+    }
+
+    nav {
+      display: flex;
+      align-items:right;
+	  margin-right:1px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    nav li {
+      margin-right: 20px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ddd;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: 0.25fr 2.75fr; /* Sidebar on the left */
+      grid-template-areas: "sidebar main";
+      grid-gap: 20px;
+      max-width: 1200px;
+      margin: 20px auto;
+    }
+	aside {
+  width: 100%;
+  background: url('C:/Users/vivaa/Downloads/small-roses.jpg') no-repeat center center;
+  background-size: cover;
+  position: relative;
+  margin-left: 0; /* Adjust this value to move the sidebar to the left */
+  z-index: 1; /* Ensure the sidebar is above other elements */
+}
+
+
+	
+    main {
+      grid-area: main;
+      display: grid;
+      grid-template-rows: 1fr auto; /* Adjust as needed */
+      grid-gap: 10px;
+    }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+	  }
+
+    .hero img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .text-overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: #fff;
+    }
+
+    section {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 20px;
+    }
+
+    section img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    footer {
+     background-color:rgba(123,34,120,0.1) 
+      color: white;
+      padding: 20px;
+      text-align: center;background-color: rgba(123,123,244,0.2);
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <header>
+    <div class="logo">
+      <img src="C:\Users\vivaa\Downloads\carnations.jpg" alt="Flower Icon">
+      <h1>Organic Flowers</h1>
+    </div>
+    
+    <nav>
+      <ul>
+        <li><a href="#sidebar">Menu on Sidebar</a></li>
+        <li><a href="#flowers">Flowers</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+ 
+  </header>
+
+  <div class="grid-container">
+    <aside>
+      <!-- Sidebar content goes here -->	  
+      	  <h3>Menu</h3>
+    <ul>
+      <li><strong>Shop by Category:</strong></li>
+      <li><a href="#">Roses</a></li>
+      <li><a href="#">Lilies</a></li>
+      <li><a href="#">Tulips</a></li>
+      <li><a href="#">Sunflowers</a></li>
+      <li><a href="#">Mixed Bouquets</a></li>
+      <li><strong>Additional Services:</strong></li>
+      <li><a href="#">Custom Arrangements</a></li>
+      <li><a href="#">Event Floristry</a></li>
+      <li><a href="#">Subscription Plans</a></li>
+    </ul>
+    </aside>
+
+    <main>
+      <div class="hero">
+        <img src="C:\Users\vivaa\Downloads\rose.jpg" alt="Hero Image">
+        <div class="text-overlay">
+          <h2>Order your awesome flowers now!</h2>
+          <p></p>
+        </div>
+      </div>
+
+      <section>	 
+	    <img src="C:\Users\vivaa\Downloads\narcissus.jpg" alt="narcissus">
+        <img src="C:\Users\vivaa\OneDrive\Pictures\landysh1.jpg"alt="landysh"> 
+		<img src="C:\Users\vivaa\Downloads\tulips.garden.jpg"alt="tulips"
+		<img src="C:\Users\vivaa\Downloads\red-rose.jpg"alt="red-roses">
+		<img src="C:\Users\vivaa\Downloads\iris.jpg"alt="iris">
+        <img src="C:\Users\vivaa\Downloads\blue-roses.jpg"alt="blue-roses">		
+		<img src="C:\Users\vivaa\OneDrive\Pictures\landysh-horizontal.jpg"alt="landysh">
+	 </section>
+    </main>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 Your Website. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
