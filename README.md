@@ -28,7 +28,7 @@ Open the index.html file in your preferred web browser.
 Navigate through the website using the top navigation bar and the side panel. Explore my profile, view project screenshots, and follow the CodePen links to see the source code.
 
  Screenshots:
-Screenshots on different media are provided. 
+Screenshots on different media are provided here:images/Screenshot 2023-12-03 041133.png
 
 Technologies Used:
 HTML5
