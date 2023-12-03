@@ -79,9 +79,9 @@ nav a:hover {
       max-width: 1200px;
       margin: 10px auto;
     }
-	aside {
+aside {
   width: 100%;
-  background: url('C:/Users/vivaa/Downloads/small-roses.jpg') no-repeat center center;
+  background: url('pink-roses.jpg') no-repeat center center;
   background-size: cover;
   position: relative;
   margin-left: 0; /* Adjust this value to move the sidebar to the left */
