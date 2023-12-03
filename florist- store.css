@@ -61,7 +61,7 @@
       max-width: 1200px;
       margin: 20px auto;
     }
-	aside {
+aside {
   width: 100%;
   background: url('C:/Users/vivaa/Downloads/small-roses.jpg') no-repeat center center;
   background-size: cover;
@@ -73,8 +73,9 @@
   padding-right:1px;
 }
 
-
-	
+h2 {
+text-align: center;
+}
     main {
       grid-area: main;
       display: grid;
@@ -95,8 +96,8 @@
 
     .text-overlay {
       position: absolute;
-      top: 50%;
-      left: 50%;
+      top: 7%;
+      left: 12%;
       transform: translate(-50%, -50%);
       text-align: center;
       color: #fff;
