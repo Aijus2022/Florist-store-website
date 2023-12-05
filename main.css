@@ -39,7 +39,7 @@ body {
     nav {
       display: flex;
       align-items:right;
-	  margin-right:1px;
+	  margin-right:40 px;
 	  
     }
 
@@ -76,7 +76,7 @@ nav a:hover {
       grid-template-columns: 0.25fr 2.75fr; /* Sidebar on the left */
       grid-template-areas: "sidebar main";
       grid-gap: 20px;
-      max-width: 1200px;
+      width: 100%;
       margin: 10px auto;
     }
 aside {
