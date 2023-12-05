@@ -38,8 +38,9 @@ body {
 
     nav {
       display: flex;
-      align-items:right;
+      align-items:centre;
 	  margin-right:40 px;
+	    margin-bottom:40 px;
 	  
     }
 
@@ -59,7 +60,7 @@ body {
   font-family: "Georgia", serif; /* Elegant font-family */
   letter-spacing: 1px; /* Adjust letter spacing */
   text-decoration: none;
-  padding: 10px 20px;
+  padding: 10px 10px;
   background-color: rgba(0, 0, 16, 0.2); /* Dark green background with 20% opacity */
   border-radius: 8px; /* Rounded corners */
   box-shadow: 0 4px 8px rgba(8, 18, 10, 0.2); /* Subtle box shadow for depth */
