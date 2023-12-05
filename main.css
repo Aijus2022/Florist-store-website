@@ -1,16 +1,16 @@
 body {
 	width:100;
 	height:100%;
-    margin: 0;
+        margin: 0;
 	padding:0;
 	overflow-x:hidden;
-    font-family: Arial, sans-serif;
+        font-family: Arial, sans-serif;
 	background-color:rgba(125, 200, 235,0.8); 
 	  
 	}
 
     header {
-      background-color:rgba(255,105,180,0.7);
+      background-color:rgba(155,30,125,0.6);
       color: white;
       padding: 10px;
       display: flex;
